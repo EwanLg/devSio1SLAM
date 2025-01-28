@@ -19,7 +19,7 @@
                     If pile.Empiler(element) Then
                         Console.WriteLine("Element ajoutée avec succès.")
                     Else
-                        Console.WriteLine("Une erreur est survenu.")
+                        Console.WriteLine("Une erreur est survenu, la Pile est probablement pleine.")
                     End If
                 Case 2
                     Dim depile As String = pile.Depiler()
