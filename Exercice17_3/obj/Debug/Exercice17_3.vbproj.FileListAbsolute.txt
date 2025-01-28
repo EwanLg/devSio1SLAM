@@ -1,0 +1,11 @@
+C:\Users\le_gall\source\repos\Exercice17_3\obj\Debug\Exercice17_3.vbproj.AssemblyReference.cache
+C:\Users\le_gall\source\repos\Exercice17_3\obj\Debug\Exercice17_3.Resources.resources
+C:\Users\le_gall\source\repos\Exercice17_3\obj\Debug\Exercice17_3.vbproj.GenerateResource.cache
+C:\Users\le_gall\source\repos\Exercice17_3\obj\Debug\Exercice17_3.vbproj.CoreCompileInputs.cache
+C:\Users\le_gall\source\repos\Exercice17_3\bin\Debug\Exercice17_3.exe.config
+C:\Users\le_gall\source\repos\Exercice17_3\bin\Debug\Exercice17_3.exe
+C:\Users\le_gall\source\repos\Exercice17_3\bin\Debug\Exercice17_3.pdb
+C:\Users\le_gall\source\repos\Exercice17_3\bin\Debug\Exercice17_3.xml
+C:\Users\le_gall\source\repos\Exercice17_3\obj\Debug\Exercice17_3.exe
+C:\Users\le_gall\source\repos\Exercice17_3\obj\Debug\Exercice17_3.xml
+C:\Users\le_gall\source\repos\Exercice17_3\obj\Debug\Exercice17_3.pdb
