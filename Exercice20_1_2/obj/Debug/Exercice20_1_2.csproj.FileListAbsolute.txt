@@ -1,0 +1,7 @@
+C:\Users\le_gall\source\repos\Exercice20_1_2\bin\Debug\Exercice20_1_2.exe.config
+C:\Users\le_gall\source\repos\Exercice20_1_2\bin\Debug\Exercice20_1_2.exe
+C:\Users\le_gall\source\repos\Exercice20_1_2\bin\Debug\Exercice20_1_2.pdb
+C:\Users\le_gall\source\repos\Exercice20_1_2\obj\Debug\Exercice20_1_2.csproj.AssemblyReference.cache
+C:\Users\le_gall\source\repos\Exercice20_1_2\obj\Debug\Exercice20_1_2.csproj.CoreCompileInputs.cache
+C:\Users\le_gall\source\repos\Exercice20_1_2\obj\Debug\Exercice20_1_2.exe
+C:\Users\le_gall\source\repos\Exercice20_1_2\obj\Debug\Exercice20_1_2.pdb

@@ -10,6 +10,9 @@ namespace Exercice20_1_2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("");
+
+            Console.ReadLine();
         }
     }
 }

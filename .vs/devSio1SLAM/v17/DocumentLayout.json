@@ -3,16 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\le_gall\\source\\repos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8A897E7-19F0-4524-998F-702FE735BE14}|Exercice17_3\\Exercice17_3.vbproj|c:\\users\\le_gall\\source\\repos\\exercice17_3\\ex17_3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{A8A897E7-19F0-4524-998F-702FE735BE14}|Exercice17_3\\Exercice17_3.vbproj|solutionrelative:exercice17_3\\ex17_3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8A897E7-19F0-4524-998F-702FE735BE14}|Exercice17_3\\Exercice17_3.vbproj|c:\\users\\le_gall\\source\\repos\\exercice17_3\\class1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{A8A897E7-19F0-4524-998F-702FE735BE14}|Exercice17_3\\Exercice17_3.vbproj|solutionrelative:exercice17_3\\class1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{D46872EF-A773-4C1B-815F-0808375D3D64}|Exercice20_1_2\\Exercice20_1_2.csproj|c:\\users\\le_gall\\source\\repos\\exercice20_1_2\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46872EF-A773-4C1B-815F-0808375D3D64}|Exercice20_1_2\\Exercice20_1_2.csproj|solutionrelative:exercice20_1_2\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D46872EF-A773-4C1B-815F-0808375D3D64}|Exercice20_1_2\\Exercice20_1_2.csproj|c:\\users\\le_gall\\source\\repos\\exercice20_1_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D46872EF-A773-4C1B-815F-0808375D3D64}|Exercice20_1_2\\Exercice20_1_2.csproj|solutionrelative:exercice20_1_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Exercice20_1_2||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46872EF-A773-4C1B-815F-0808375D3D64}|Exercice20_1_2\\Exercice20_1_2.csproj|c:\\users\\le_gall\\source\\repos\\exercice20_1_2\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +24,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Exercice20_1_2",
+              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice20_1_2\\Exercice20_1_2.csproj",
+              "RelativeDocumentMoniker": "Exercice20_1_2\\Exercice20_1_2.csproj",
+              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice20_1_2\\Exercice20_1_2.csproj",
+              "RelativeToolTip": "Exercice20_1_2\\Exercice20_1_2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-30T09:51:21.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ex17_3.vb",
-              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice17_3\\ex17_3.vb",
-              "RelativeDocumentMoniker": "Exercice17_3\\ex17_3.vb",
-              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice17_3\\ex17_3.vb",
-              "RelativeToolTip": "Exercice17_3\\ex17_3.vb",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAgwBUAAABjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-28T15:47:05.819Z",
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice20_1_2\\Class1.cs",
+              "RelativeDocumentMoniker": "Exercice20_1_2\\Class1.cs",
+              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice20_1_2\\Class1.cs",
+              "RelativeToolTip": "Exercice20_1_2\\Class1.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T09:48:49.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.vb",
-              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice17_3\\Class1.vb",
-              "RelativeDocumentMoniker": "Exercice17_3\\Class1.vb",
-              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice17_3\\Class1.vb",
-              "RelativeToolTip": "Exercice17_3\\Class1.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-28T15:38:49.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice20_1_2\\Program.cs",
               "RelativeDocumentMoniker": "Exercice20_1_2\\Program.cs",
               "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice20_1_2\\Program.cs",
               "RelativeToolTip": "Exercice20_1_2\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T13:57:39.107Z",
               "EditorCaption": ""
