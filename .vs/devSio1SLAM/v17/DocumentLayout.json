@@ -11,20 +11,12 @@
       "RelativeMoniker": "D:0:0:{D46872EF-A773-4C1B-815F-0808375D3D64}|Exercice20_1_2\\Exercice20_1_2.csproj|solutionrelative:exercice20_1_2\\complexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A897E7-19F0-4524-998F-702FE735BE14}|Exercice17_3\\Exercice17_3.vbproj|c:\\users\\le_gall\\source\\repos\\exercice17_3\\class1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{A8A897E7-19F0-4524-998F-702FE735BE14}|Exercice17_3\\Exercice17_3.vbproj|solutionrelative:exercice17_3\\class1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34F892E9-7D96-4D0D-9B50-6DFF9D4D5273}|Exercice20_2\\Exercice20_2.csproj|c:\\users\\le_gall\\source\\repos\\exercice20_2\\collections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34F892E9-7D96-4D0D-9B50-6DFF9D4D5273}|Exercice20_2\\Exercice20_2.csproj|solutionrelative:exercice20_2\\collections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34F892E9-7D96-4D0D-9B50-6DFF9D4D5273}|Exercice20_2\\Exercice20_2.csproj|c:\\users\\le_gall\\source\\repos\\exercice20_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34F892E9-7D96-4D0D-9B50-6DFF9D4D5273}|Exercice20_2\\Exercice20_2.csproj|solutionrelative:exercice20_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8A897E7-19F0-4524-998F-702FE735BE14}|Exercice17_3\\Exercice17_3.vbproj|c:\\users\\le_gall\\source\\repos\\exercice17_3\\ex17_3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{A8A897E7-19F0-4524-998F-702FE735BE14}|Exercice17_3\\Exercice17_3.vbproj|solutionrelative:exercice17_3\\ex17_3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,47 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 180,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "collections.cs",
-              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice20_2\\collections.cs",
-              "RelativeDocumentMoniker": "Exercice20_2\\collections.cs",
-              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice20_2\\collections.cs",
-              "RelativeToolTip": "Exercice20_2\\collections.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T15:04:18.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ex17_3.vb",
-              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice17_3\\ex17_3.vb",
-              "RelativeDocumentMoniker": "Exercice17_3\\ex17_3.vb",
-              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice17_3\\ex17_3.vb",
-              "RelativeToolTip": "Exercice17_3\\ex17_3.vb",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-31T14:58:19.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.vb",
-              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice17_3\\Class1.vb",
-              "RelativeDocumentMoniker": "Exercice17_3\\Class1.vb",
-              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice17_3\\Class1.vb",
-              "RelativeToolTip": "Exercice17_3\\Class1.vb",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-31T14:55:15.623Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -83,9 +36,9 @@
               "RelativeDocumentMoniker": "Exercice20_1_2\\Program.cs",
               "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice20_1_2\\Program.cs",
               "RelativeToolTip": "Exercice20_1_2\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAIA2wBoAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCgAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T14:53:07.185Z",
+              "WhenOpened": "2025-01-31T15:44:13.104Z",
               "EditorCaption": ""
             },
             {
@@ -96,22 +49,35 @@
               "RelativeDocumentMoniker": "Exercice20_1_2\\Complexe.cs",
               "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice20_1_2\\Complexe.cs",
               "RelativeToolTip": "Exercice20_1_2\\Complexe.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAowDIAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T14:53:02.351Z",
+              "WhenOpened": "2025-01-31T15:44:11.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice20_2\\Program.cs",
               "RelativeDocumentMoniker": "Exercice20_2\\Program.cs",
               "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice20_2\\Program.cs",
               "RelativeToolTip": "Exercice20_2\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T13:57:27.509Z",
+              "WhenOpened": "2025-01-31T15:40:50.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "collections.cs",
+              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice20_2\\collections.cs",
+              "RelativeDocumentMoniker": "Exercice20_2\\collections.cs",
+              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice20_2\\collections.cs",
+              "RelativeToolTip": "Exercice20_2\\collections.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T15:17:52.09Z",
               "EditorCaption": ""
             }
           ]

@@ -8,5 +8,8 @@ namespace Exercice20_2
 {
     internal class Collections
     {
+        private tableau(MAX);
+        private int positonLibre;
+        
     }
 }

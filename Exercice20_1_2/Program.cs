@@ -8,6 +8,16 @@ namespace Exercice20_1_2
 {
     internal class Program
     {
+        static Complexe SaisirComplexe()
+        {
+            Console.Write("Valeur de la partie réelle : ");
+            double x = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Valeur de la partie imaginaire : ");
+            double y = Convert.ToDouble(Console.ReadLine());
+
+            return new Complexe(x, y);
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("1. Afficher la somme de deux nombres complexes saisis par l’utilisateur.");
@@ -60,15 +70,6 @@ namespace Exercice20_1_2
 
             Console.ReadLine();
         }
-    }
-    static Complexe SaisirComplexe()
-    {
-        Console.Write("Valeur de la partie réelle : ");
-        double x = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Valeur de la partie imaginaire : ");
-        double y = Convert.ToDouble(Console.ReadLine());
-
-        return new Complexe(x, y);
     }
 }
