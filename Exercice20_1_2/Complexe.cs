@@ -30,33 +30,34 @@ namespace Exercice20_1_2
         }
         public Complexe Addition(Complexe nombre)
         {
-            double nouvPartieReelle = x + nombre.GetPartieImaginaire();
-            double nouvPartieImaginaire = y + nombre.GetPartieReelle();
-            return new Complexe(nouvPartieImaginaire, nouvPartieImaginaire);
+            double nouvPartieReelle = x + nombre.GetPartieReelle();
+            double nouvPartieImaginaire = y + nombre.GetPartieImaginaire();
+            return new Complexe(nouvPartieReelle, nouvPartieImaginaire);
         }
         public Complexe Soustraction(Complexe nombre)
         {
-            double nouvPartieReelle = x - nombre.GetPartieImaginaire();
-            double nouvPartieImaginaire = y - nombre.GetPartieReelle();
-            return new Complexe(nouvPartieImaginaire, nouvPartieImaginaire);
+            double nouvPartieReelle = x - nombre.GetPartieReelle();
+            double nouvPartieImaginaire = y - nombre.GetPartieImaginaire();
+            return new Complexe(nouvPartieReelle, nouvPartieImaginaire);
         }
         public Complexe Produit(Complexe nombre)
         {
             double nouvPartieReelle = x * nombre.GetPartieReelle() - y * nombre.GetPartieImaginaire();
-            double nouvPartieImaginaire = y * nombre.GetPartieReelle() - x * nombre.GetPartieImaginaire;
-            return new Complexe(nouvPartieImaginaire, nouvPartieImaginaire);
+            double nouvPartieImaginaire = x * nombre.GetPartieImaginaire() + y * nombre.GetPartieReelle();
+            return new Complexe(nouvPartieReelle, nouvPartieImaginaire);
         }
-        public Complexe Inverse(Complexe nombre)
+        /*public Complexe Inverse(Complexe nombre)
         {
-            return "Partie réelle : " + x.ToString + "\"
-        }
+            return "Partie réelle : " + x.ToString() + "\";
+        }*/
+
         public double GetModule()
         {
-
+            return Math.Sqrt(x * x + y * y);
         }
-        public override string ToString(string test)
+        public override string ToString()
         {
-            return test;
+            return $"{x} + {y}i";
         }
     }
 }

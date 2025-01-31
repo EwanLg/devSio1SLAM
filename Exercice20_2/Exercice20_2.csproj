@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D46872EF-A773-4C1B-815F-0808375D3D64}</ProjectGuid>
+    <ProjectGuid>{34F892E9-7D96-4D0D-9B50-6DFF9D4D5273}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Exercice20_1_2</RootNamespace>
-    <AssemblyName>Exercice20_1_2</AssemblyName>
+    <RootNamespace>Exercice20_2</RootNamespace>
+    <AssemblyName>Exercice20_2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Exercice20_1_2.Program</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Complexe.cs" />
+    <Compile Include="collections.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
