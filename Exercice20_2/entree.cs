@@ -6,27 +6,27 @@ using System.Threading.Tasks;
 
 namespace Exercice20_2
 {
-    internal class Entrée
+    internal class Entree
     {
-        private string cle;
-        private object valeur;
+        private string cle = "test";
+        private object valeur = 15;
 
-        public Entrée(string pCle, object pValeur)
+        public Entree(string pCle, object pValeur)
         {
             cle = pCle;
             valeur = pValeur;
         }
-        public GetCle(string cle)
+        public string GetCle()
         {
-            return ;
+            return cle;
         }
-        public GetValeur(string cle)
+        public object GetValeur()
         {
-            return ;
+            return valeur;
         }
         public override string ToString()
         {
-            return cle;
+            return $"{cle} : {valeur}";
         }
     }
 }
