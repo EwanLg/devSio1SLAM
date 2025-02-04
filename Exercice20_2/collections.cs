@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,23 +38,43 @@ namespace Exercice20_2
         }
         public bool Supprimer(string cle)
         {
-            return Supprimer();
+            for (int i = 0; i < positionLibre; i++)
+            {
+                if (tableau[i].GetCle() == cle)
+                    for (int j = i; j < positionLibre - 1; j++)
+                    {
+                        tableau[j] = tableau[j + 1];
+                    }
+                positionLibre--;
+                return true;
+            }
+            return false;
         }
-        public bool Existe()
+        public bool Existe(string cle)
         {
-            return Existe();
+           for (int i = 0; i < positionLibre; i++)
+            {
+                if (tableau[i].GetCle == cle)
+                    return true;
+            }
+            return false;
         }
-        public Vider()
+        public void Vider()
         {
-            return;
+            positionLibre = 0;
         }
         public int NomBreDElements()
         {
-            return;
+            return positionLibre;
         }
         public override string ToString()
         {
-            return;
+            string result = "\n";
+            for (int i = 0; i < positionLibre; i++)
+            {
+                result += tableau[i].ToString() + "\n";
+            }
+            return result;
         }
     }
 }
