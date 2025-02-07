@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\le_gall\\source\\repos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34F892E9-7D96-4D0D-9B50-6DFF9D4D5273}|Exercice20_2\\Exercice20_2.csproj|c:\\users\\le_gall\\source\\repos\\exercice20_2\\collections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D46872EF-A773-4C1B-815F-0808375D3D64}|Exercice20_1_2\\Exercice20_1_2.csproj|c:\\users\\le_gall\\source\\repos\\exercice20_1_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46872EF-A773-4C1B-815F-0808375D3D64}|Exercice20_1_2\\Exercice20_1_2.csproj|solutionrelative:exercice20_1_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D46872EF-A773-4C1B-815F-0808375D3D64}|Exercice20_1_2\\Exercice20_1_2.csproj|C:\\Users\\le_gall\\source\\repos\\exercice20_1_2\\complexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D46872EF-A773-4C1B-815F-0808375D3D64}|Exercice20_1_2\\Exercice20_1_2.csproj|solutionrelative:exercice20_1_2\\complexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34F892E9-7D96-4D0D-9B50-6DFF9D4D5273}|Exercice20_2\\Exercice20_2.csproj|C:\\Users\\le_gall\\source\\repos\\exercice20_2\\collections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34F892E9-7D96-4D0D-9B50-6DFF9D4D5273}|Exercice20_2\\Exercice20_2.csproj|solutionrelative:exercice20_2\\collections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F892E9-7D96-4D0D-9B50-6DFF9D4D5273}|Exercice20_2\\Exercice20_2.csproj|c:\\users\\le_gall\\source\\repos\\exercice20_2\\entree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{34F892E9-7D96-4D0D-9B50-6DFF9D4D5273}|Exercice20_2\\Exercice20_2.csproj|C:\\Users\\le_gall\\source\\repos\\exercice20_2\\entree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34F892E9-7D96-4D0D-9B50-6DFF9D4D5273}|Exercice20_2\\Exercice20_2.csproj|solutionrelative:exercice20_2\\entree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F892E9-7D96-4D0D-9B50-6DFF9D4D5273}|Exercice20_2\\Exercice20_2.csproj|c:\\users\\le_gall\\source\\repos\\exercice20_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{34F892E9-7D96-4D0D-9B50-6DFF9D4D5273}|Exercice20_2\\Exercice20_2.csproj|C:\\Users\\le_gall\\source\\repos\\exercice20_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34F892E9-7D96-4D0D-9B50-6DFF9D4D5273}|Exercice20_2\\Exercice20_2.csproj|solutionrelative:exercice20_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,32 +35,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "collections.cs",
-              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice20_2\\collections.cs",
-              "RelativeDocumentMoniker": "Exercice20_2\\collections.cs",
-              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice20_2\\collections.cs",
-              "RelativeToolTip": "Exercice20_2\\collections.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAcwDEAAAAkAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice20_1_2\\Program.cs",
+              "RelativeDocumentMoniker": "Exercice20_1_2\\Program.cs",
+              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice20_1_2\\Program.cs",
+              "RelativeToolTip": "Exercice20_1_2\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAtwBQAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T12:39:02.193Z",
+              "WhenOpened": "2025-02-06T09:46:19.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Complexe.cs",
+              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice20_1_2\\Complexe.cs",
+              "RelativeDocumentMoniker": "Exercice20_1_2\\Complexe.cs",
+              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice20_1_2\\Complexe.cs",
+              "RelativeToolTip": "Exercice20_1_2\\Complexe.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T09:46:16.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "collections.cs",
+              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice20_2\\collections.cs",
+              "RelativeDocumentMoniker": "Exercice20_2\\collections.cs",
+              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice20_2\\collections.cs",
+              "RelativeToolTip": "Exercice20_2\\collections.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAcwEkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T12:39:02.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "entree.cs",
               "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice20_2\\entree.cs",
               "RelativeDocumentMoniker": "Exercice20_2\\entree.cs",
               "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice20_2\\entree.cs",
               "RelativeToolTip": "Exercice20_2\\entree.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAwwCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T12:39:01.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T12:39:01.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice20_2\\Program.cs",
               "RelativeDocumentMoniker": "Exercice20_2\\Program.cs",
@@ -60,8 +91,7 @@
               "RelativeToolTip": "Exercice20_2\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T12:39:01.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T12:39:01.032Z"
             }
           ]
         }

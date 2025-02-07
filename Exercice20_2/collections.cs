@@ -69,11 +69,9 @@ namespace Exercice20_2
         }
         public override string ToString()
         {
-            string result = "\n";
+            string result = "";
             for (int i = 0; i < positionLibre; i++)
-            {
                 result += tableau[i].ToString() + "\n";
-            }
             return result;
         }
     }
