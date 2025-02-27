@@ -18,7 +18,7 @@ namespace Exercice20_1_2
 
             return new Complexe(x, y);
         }
-        static void Main(string[])
+        static void Main(string[] args)
         {
             Console.WriteLine("1. Afficher la somme de deux nombres complexes saisis par l’utilisateur.");
             Console.WriteLine("2. Afficher la soustraction de deux nombres complexes saisis par l’utilisateur.");

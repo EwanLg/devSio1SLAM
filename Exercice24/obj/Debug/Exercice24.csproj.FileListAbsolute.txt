@@ -1,0 +1,7 @@
+C:\Users\le_gall\source\repos\Exercice24\bin\Debug\Exercice24.exe.config
+C:\Users\le_gall\source\repos\Exercice24\bin\Debug\Exercice24.exe
+C:\Users\le_gall\source\repos\Exercice24\bin\Debug\Exercice24.pdb
+C:\Users\le_gall\source\repos\Exercice24\obj\Debug\Exercice24.csproj.AssemblyReference.cache
+C:\Users\le_gall\source\repos\Exercice24\obj\Debug\Exercice24.csproj.CoreCompileInputs.cache
+C:\Users\le_gall\source\repos\Exercice24\obj\Debug\Exercice24.exe
+C:\Users\le_gall\source\repos\Exercice24\obj\Debug\Exercice24.pdb
