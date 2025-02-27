@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,8 @@ namespace Exercice24
         {
             string designation, reference;
             double prixHT, tauxTVA, pourcentage;
-            int choix;
+            int choix, positionLibre;
+            bool continuer;
             do
             {
                 Console.WriteLine("1. Ajouter un produit au catalogue\n2. Augmenter le prix HT d'un produit\n3. Baisser le prix HT d'un produit\n4. Modifier le taux de TVA d'un produit\n5. Augmenter tous les produits du catalogue\n6. Supprimer un produit du catalogue\n7. Afficher toutes les informations sur tous les produits (inc. Prix TTC)\n8. Afficher toutes les informations sur un produit (inc. Prix TTC)\n9. Vider le catalogue\n10. Quitter\nChoix ?");
@@ -30,10 +32,19 @@ namespace Exercice24
                             prixHT = double.Parse(Console.ReadLine());
                             Console.WriteLine("Entrez le taux de TVA du produit : ");
                             tauxTVA = double.Parse(Console.ReadLine());
-                            Console.WriteLine("Référence du produit : ");
-                            reference = Console.ReadLine();
+                            do
+                            {
+                                Console.WriteLine("Référence du produit : ");
+                                reference = Console.ReadLine();
+                                if (catalogue.ContainsKey(reference))
+                                {
+                                    Console.WriteLine("Référence déjà existente, veuillez ressayez.");
+                                }
+                            } while (catalogue.ContainsKey(reference));
+                            
                             Produit produit = new Produit(designation, prixHT, tauxTVA);
                             catalogue.Add(reference, produit);
+                            continuer = false;
                             break;
                         }
                     case 2:
