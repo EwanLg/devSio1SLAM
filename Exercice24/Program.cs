@@ -40,7 +40,11 @@ namespace Exercice24
                                 {
                                     Console.WriteLine("Référence déjà existente, veuillez ressayez.");
                                 }
-                            } while (catalogue.ContainsKey(reference));
+                                else if (reference == "")
+                                {
+                                    Console.WriteLine("Veuillez enter une référence");
+                                }
+                            } while (catalogue.ContainsKey(reference) || reference == "");
                             
                             Produit produit = new Produit(designation, prixHT, tauxTVA);
                             catalogue.Add(reference, produit);
