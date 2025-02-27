@@ -123,6 +123,17 @@ namespace Exercice24
                     }
                     case 6:
                         {
+                            do
+                            {
+                                Console.WriteLine("Entrez la référence du produit à supprimer : ");
+                                reference = Console.ReadLine();
+                                if (!catalogue.ContainsKey(reference) || reference == "") 
+                                {
+                                    Console.WriteLine("Veuillez entrer une référence valide.");
+                                }
+                            } while (!catalogue.ContainsKey(reference));
+                            catalogue.Remove(reference);
+                            Console.WriteLine("Le produit a été supprimé avec succès.");
                             break;
                         }
                     case 7:
