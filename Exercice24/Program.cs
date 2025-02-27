@@ -98,13 +98,11 @@ namespace Exercice24
                         }
                     case 5:
                         {
-                        
                         Console.WriteLine("De combien de % voulez-vous agumenter tout les prix HT du catalogue ? ");
-                        
                         pourcentage = double.Parse(Console.ReadLine());
-                        foreach (String reference in catalogue.Keys)
+                        foreach (double cle in catalogue.Keys)
                         {
-                            Produit produit = (Produit)catalogue[reference];
+                            Produit produit = (Produit)catalogue[cle];
                             produit.AugmenterPrix(pourcentage);
                         }
                         Console.WriteLine("Tout les prix ont bien été augmenter");
