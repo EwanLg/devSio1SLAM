@@ -16,8 +16,7 @@ namespace Exercice24
         {
             string designation, reference;
             double prixHT, tauxTVA, pourcentage;
-            int choix, positionLibre;
-            bool continuer;
+            int choix;
             do
             {
                 Console.WriteLine("1. Ajouter un produit au catalogue\n2. Augmenter le prix HT d'un produit\n3. Baisser le prix HT d'un produit\n4. Modifier le taux de TVA d'un produit\n5. Augmenter tous les produits du catalogue\n6. Supprimer un produit du catalogue\n7. Afficher toutes les informations sur tous les produits (inc. Prix TTC)\n8. Afficher toutes les informations sur un produit (inc. Prix TTC)\n9. Vider le catalogue\n10. Quitter\nChoix ?");
@@ -48,7 +47,6 @@ namespace Exercice24
                             
                             Produit produit = new Produit(designation, prixHT, tauxTVA);
                             catalogue.Add(reference, produit);
-                            continuer = false;
                             break;
                         }
                     case 2:
@@ -115,7 +113,7 @@ namespace Exercice24
                         {
                         Console.WriteLine("De combien de % voulez-vous agumenter tout les prix HT du catalogue ? ");
                         pourcentage = double.Parse(Console.ReadLine());
-                        foreach (double cle in catalogue.Keys)
+                        foreach (string cle in catalogue.Keys)
                         {
                             Produit produit = (Produit)catalogue[cle];
                             produit.AugmenterPrix(pourcentage);
