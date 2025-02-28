@@ -47,6 +47,7 @@ namespace Exercice24
                             
                             Produit produit = new Produit(designation, prixHT, tauxTVA);
                             catalogue.Add(reference, produit);
+                            Console.WriteLine("Produit ajouté");
                             break;
                         }
                     case 2:
@@ -113,9 +114,8 @@ namespace Exercice24
                         {
                         Console.WriteLine("De combien de % voulez-vous agumenter tout les prix HT du catalogue ? ");
                         pourcentage = double.Parse(Console.ReadLine());
-                        foreach (string cle in catalogue.Keys)
+                        foreach (Produit produit in catalogue.Values)
                         {
-                            Produit produit = (Produit)catalogue[cle];
                             produit.AugmenterPrix(pourcentage);
                         }
                         Console.WriteLine("Tout les prix ont bien été augmenter");
@@ -138,9 +138,10 @@ namespace Exercice24
                         }
                     case 7:
                         {
-                            foreach (Produit produit in catalogue.Values)
+                            foreach (DictionaryEntry produit in catalogue)
                             {
-                                Console.WriteLine(produit.ToString());
+                                Console.WriteLine("Référence du produit . " + produit.Key);
+                                Console.WriteLine(((Produit)produit.Value).ToString());
                             }
                             Console.ReadLine();
                             break;
@@ -186,6 +187,11 @@ namespace Exercice24
                         {
                             Console.WriteLine("Au revoir.");
                             Console.ReadLine();
+                            break;
+                        }
+                    default:
+                        {
+                            Console.WriteLine("Entrez un choix valide.");
                             break;
                         }
 
