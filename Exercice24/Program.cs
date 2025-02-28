@@ -14,7 +14,7 @@ namespace Exercice24
         static Hashtable catalogue = new Hashtable();
         static void Main(string[] args)
         {
-            string designation, reference;
+            string designation, reference, answer;
             double prixHT, tauxTVA, pourcentage;
             int choix;
             do
@@ -138,14 +138,48 @@ namespace Exercice24
                         }
                     case 7:
                         {
+                            foreach (Produit produit in catalogue.Values)
+                            {
+                                Console.WriteLine(produit.ToString());
+                            }
+                            Console.ReadLine();
                             break;
                         }
                     case 8:
                         {
-                            break;
+                            Console.WriteLine("Entrez la référence du produit : ");
+                            reference = Console.ReadLine();
+                            if (catalogue.ContainsKey(reference))
+                            {
+                                Produit produit = (Produit)catalogue[reference];
+                                Console.WriteLine(produit.ToString());
+                                Console.ReadLine();
+                                break;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Produit non trouvé dans le catalogue / référence non valide.");
+                                break;
+                            }
                         }
                     case 9:
                         {
+                            Console.WriteLine("Etes vous sur de vouloir vider le catalogue ? y/n");
+                            answer = Console.ReadLine();
+                            if (answer.ToLower() == "y")
+                            {
+                                catalogue.Clear();
+                                Console.WriteLine("Catalogue vidé.");
+                                Console.ReadLine();
+                            }
+                            else if (answer.ToLower() == "n")
+                            {
+                                Console.WriteLine("Catalogue intacte.");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Veuillez entrez une réponse valide.");
+                            }
                             break;
                         }
                     case 10:
