@@ -1,4 +1,4 @@
-﻿namespace GestionProduits
+﻿namespace Exercice_24
 
 {
 
