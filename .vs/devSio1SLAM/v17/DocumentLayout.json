@@ -3,15 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\le_gall\\source\\repos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8D4ED80-D33F-4403-94DB-700C96C5E465}|Exercice24\\Exercice24.csproj|c:\\users\\le_gall\\source\\repos\\exercice24\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8D4ED80-D33F-4403-94DB-700C96C5E465}|Exercice24\\Exercice24.csproj|solutionrelative:exercice24\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C25D47D1-ABB0-444A-9ADE-CB61C0754547}|Exercice_28\\Exercice_28.csproj|c:\\users\\le_gall\\source\\repos\\exercice_28\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25D47D1-ABB0-444A-9ADE-CB61C0754547}|Exercice_28\\Exercice_28.csproj|solutionrelative:exercice_28\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8D4ED80-D33F-4403-94DB-700C96C5E465}|Exercice24\\Exercice24.csproj|C:\\Users\\le_gall\\source\\repos\\exercice24\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8D4ED80-D33F-4403-94DB-700C96C5E465}|Exercice24\\Exercice24.csproj|solutionrelative:exercice24\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Exercice24||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{C25D47D1-ABB0-444A-9ADE-CB61C0754547}|Exercice_28\\Exercice_28.csproj|C:\\Users\\le_gall\\source\\repos\\exercice_28\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25D47D1-ABB0-444A-9ADE-CB61C0754547}|Exercice_28\\Exercice_28.csproj|solutionrelative:exercice_28\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,44 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 180,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Exercice24",
-              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice24\\Exercice24.csproj",
-              "RelativeDocumentMoniker": "Exercice24\\Exercice24.csproj",
-              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice24\\Exercice24.csproj",
-              "RelativeToolTip": "Exercice24\\Exercice24.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-27T12:43:20.025Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice24\\Program.cs",
-              "RelativeDocumentMoniker": "Exercice24\\Program.cs",
-              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice24\\Program.cs",
-              "RelativeToolTip": "Exercice24\\Program.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAAwI8AAABLAAAA",
+              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice_28\\Program.cs",
+              "RelativeDocumentMoniker": "Exercice_28\\Program.cs",
+              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice_28\\Program.cs",
+              "RelativeToolTip": "Exercice_28\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA7wB8AAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T12:35:03.871Z",
+              "WhenOpened": "2025-03-03T13:33:47.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "produit.cs",
-              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice24\\produit.cs",
-              "RelativeDocumentMoniker": "Exercice24\\produit.cs",
-              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice24\\produit.cs",
-              "RelativeToolTip": "Exercice24\\produit.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAmwEgAAAAbAAAA",
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice_28\\Class1.cs",
+              "RelativeDocumentMoniker": "Exercice_28\\Class1.cs",
+              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice_28\\Class1.cs",
+              "RelativeToolTip": "Exercice_28\\Class1.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAuwGUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T12:35:03.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T13:33:46.7Z"
             }
           ]
         }

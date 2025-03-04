@@ -95,10 +95,10 @@ namespace Exercice_28
             return "\nDésignation : " + designation + "\nPrix HT : " + prixHT.ToString() + "\nTaux TVA : " + tauxTVA.ToString() + "\nPrix TTC : " + GetPrixTTC().ToString();
 
         }
-        
+
         public string ToCSV()
         {
-
+            return designation + ";" + prixHT + ";" + tauxTVA;
         }
     }
 

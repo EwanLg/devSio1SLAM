@@ -1,9 +1,9 @@
 ﻿using Exercice_28;
-using GestionProduits;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +13,35 @@ namespace Exercice_28
     internal class Program
     {
         static Hashtable catalogue = new Hashtable();
+        static void SauvegarderCatalogue()
+        {
+            using (StreamWriter writer = new StreamWriter("data.csv"))
+            {
+                foreach (DictionaryEntry entry in catalogue)
+                {
+                    string ligne = entry.Key + ";" + ((Produit)entry.Value).ToCSV();
+                    writer.WriteLine(ligne);
+                }
+            }
+        }
+
+        static void ChargerCatalogue()
+        {
+            if (!File.Exists("data.csv")) return;
+
+            foreach (string ligne in File.ReadAllLines("data.csv"))
+            {
+                string[] champs = ligne.Split(';');
+                if (champs.Length == 4)
+                {
+                    string reference = champs[0];
+                    string designation = champs[1];
+                    double prixHT = double.Parse(champs[2]);
+                    double tauxTVA = double.Parse(champs[3]);
+                    catalogue[reference] = new Produit(designation, prixHT, tauxTVA);
+                }
+            }
+        }
         static void Main(string[] args)
         {
             string designation, reference, answer;

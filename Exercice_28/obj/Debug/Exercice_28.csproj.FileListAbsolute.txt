@@ -1,0 +1,7 @@
+C:\Users\le_gall\source\repos\Exercice_28\obj\Debug\Exercice_28.csproj.AssemblyReference.cache
+C:\Users\le_gall\source\repos\Exercice_28\obj\Debug\Exercice_28.csproj.CoreCompileInputs.cache
+C:\Users\le_gall\source\repos\Exercice_28\bin\Debug\Exercice_28.exe.config
+C:\Users\le_gall\source\repos\Exercice_28\bin\Debug\Exercice_28.exe
+C:\Users\le_gall\source\repos\Exercice_28\bin\Debug\Exercice_28.pdb
+C:\Users\le_gall\source\repos\Exercice_28\obj\Debug\Exercice_28.exe
+C:\Users\le_gall\source\repos\Exercice_28\obj\Debug\Exercice_28.pdb
