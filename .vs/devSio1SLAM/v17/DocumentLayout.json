@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\le_gall\\source\\repos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C25D47D1-ABB0-444A-9ADE-CB61C0754547}|Exercice_28\\Exercice_28.csproj|c:\\users\\le_gall\\source\\repos\\exercice_28\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C25D47D1-ABB0-444A-9ADE-CB61C0754547}|Exercice_28\\Exercice_28.csproj|solutionrelative:exercice_28\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C25D47D1-ABB0-444A-9ADE-CB61C0754547}|Exercice_28\\Exercice_28.csproj|C:\\Users\\le_gall\\source\\repos\\exercice_28\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C25D47D1-ABB0-444A-9ADE-CB61C0754547}|Exercice_28\\Exercice_28.csproj|solutionrelative:exercice_28\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DFDBF57-E739-40F8-B2B6-882273DFD221}|Exercice_35\\Exercice_35.csproj|c:\\users\\le_gall\\source\\repos\\exercice_35\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DFDBF57-E739-40F8-B2B6-882273DFD221}|Exercice_35\\Exercice_35.csproj|solutionrelative:exercice_35\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,26 +20,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice_28\\Program.cs",
-              "RelativeDocumentMoniker": "Exercice_28\\Program.cs",
-              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice_28\\Program.cs",
-              "RelativeToolTip": "Exercice_28\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA7wB8AAABDAAAA",
+              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice_35\\Program.cs",
+              "RelativeDocumentMoniker": "Exercice_35\\Program.cs",
+              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice_35\\Program.cs",
+              "RelativeToolTip": "Exercice_35\\Program.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAgwE8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T13:33:47.318Z",
+              "WhenOpened": "2025-03-06T12:25:07.765Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\le_gall\\source\\repos\\Exercice_28\\Class1.cs",
-              "RelativeDocumentMoniker": "Exercice_28\\Class1.cs",
-              "ToolTip": "C:\\Users\\le_gall\\source\\repos\\Exercice_28\\Class1.cs",
-              "RelativeToolTip": "Exercice_28\\Class1.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAuwGUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T13:33:46.7Z"
             }
           ]
         }

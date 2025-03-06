@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercice_33
 {
-    internal class Vehicule
+    internal abstract class Vehicule
 
     {
 
