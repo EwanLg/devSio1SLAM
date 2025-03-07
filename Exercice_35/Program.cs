@@ -18,15 +18,12 @@ namespace ADOExemples
 
         {
 
-            NpgsqlConnection maCnx; // ! déclaration avant le bloc Try
+            NpgsqlConnection maCnx;
 
-            NpgsqlDataReader jeuEnr = null; // jeu d'enregistrements
-
-            // on déclare jeuEnr ici pour qu'il soit accessible de tout Try Catch
+            NpgsqlDataReader jeuEnr = null; 
 
 
-
-            maCnx = new NpgsqlConnection("Server=127.0.0.1;Port=5432;" + "User Id=postgres;Password=admin;Database=Biblio;");
+            maCnx = new NpgsqlConnection("Server=127.0.0.1;Port=5432;" + "User Id=postgres;Password=postgres;Database=Ex36;");
 
             try
 
@@ -34,35 +31,13 @@ namespace ADOExemples
 
                 string requête;
 
-                maCnx.Open(); // on se connecte
-
-
-
-                // NOTA BENE : title est un nom de champ, titles le nom de la table !
-
-                // DEBUT requête paramétrée
+                maCnx.Open(); 
 
                 requête = "Select title, isbn from titles where year_published =@annee";
 
                 var maCde = new NpgsqlCommand(requête, maCnx);
 
                 maCde.Parameters.AddWithValue("@annee", 1979);
-
-                // POUR SOUCIS DE TYPAGE voir exemple ExecuteNonQuery, ci-dessus
-
-                // FIN requête paramétrée
-
-
-
-                // DEBUT requête par concaténation
-
-                // requête = "Select title, isbn from titles where year_published =1979" ;
-
-                // var maCde = new NpgsqlCommand(requête, maCnx) ;
-
-                // FIN requête par concaténation
-
-
 
                 jeuEnr = maCde.ExecuteReader();
 
@@ -96,7 +71,7 @@ namespace ADOExemples
 
                 {
 
-                    jeuEnr.Close(); // s'il existe et n'est pas déjà fermé
+                    jeuEnr.Close();
 
                 }
 
@@ -106,7 +81,7 @@ namespace ADOExemples
 
                 {
 
-                    maCnx.Close(); // on se déconnecte
+                    maCnx.Close(); 
 
                 }
 
