@@ -1,0 +1,7 @@
+C:\Users\le_gall\source\repos\proggraphique\obj\Debug\proggraphique.csproj.AssemblyReference.cache
+C:\Users\le_gall\source\repos\proggraphique\obj\Debug\proggraphique.csproj.CoreCompileInputs.cache
+C:\Users\le_gall\source\repos\proggraphique\bin\Debug\proggraphique.exe.config
+C:\Users\le_gall\source\repos\proggraphique\bin\Debug\proggraphique.exe
+C:\Users\le_gall\source\repos\proggraphique\bin\Debug\proggraphique.pdb
+C:\Users\le_gall\source\repos\proggraphique\obj\Debug\proggraphique.exe
+C:\Users\le_gall\source\repos\proggraphique\obj\Debug\proggraphique.pdb
