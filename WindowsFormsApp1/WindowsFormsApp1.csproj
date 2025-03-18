@@ -46,16 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormTest.cs">
+    <Compile Include="FormLiaison.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTest.Designer.cs">
-      <DependentUpon>FormTest.cs</DependentUpon>
+    <Compile Include="FormLiaison.Designer.cs">
+      <DependentUpon>FormLiaison.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPort.Designer.cs">
+      <DependentUpon>FormPort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSecteur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSecteur.Designer.cs">
+      <DependentUpon>FormSecteur.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormTest.resx">
-      <DependentUpon>FormTest.cs</DependentUpon>
+    <EmbeddedResource Include="FormLiaison.resx">
+      <DependentUpon>FormLiaison.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPort.resx">
+      <DependentUpon>FormPort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSecteur.resx">
+      <DependentUpon>FormSecteur.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

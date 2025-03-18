@@ -10,44 +10,18 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class lbl : Form
+    public partial class FormSecteur : Form
     {
-        public lbl()
+        public FormSecteur()
         {
             InitializeComponent();
         }
-
-        private void FormTest_Load(object sender, EventArgs e)
+        private void btnAjouterSecteur_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("test");
         }
 
-        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
-        {
-
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void FormSecteur_Load(object sender, EventArgs e)
         {
 
         }
